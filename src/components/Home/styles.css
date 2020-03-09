@@ -1,0 +1,20 @@
+.post {
+    padding: 8px;
+}
+
+.post-header {
+    margin: 0;
+}
+
+.post-p {
+    margin: 8px 0px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black
+}

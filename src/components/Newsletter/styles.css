@@ -1,0 +1,45 @@
+ol, ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.header {
+    margin: 0;
+}
+
+a:link.resource-link {
+    text-decoration: underline;
+}
+
+/* .baptism-header {
+    margin: 0;
+}
+
+.baptism-list {
+    margin: 0;
+}
+
+.baptism-name {
+    margin: 0;
+}
+
+.baptism-date {
+    margin: 0;
+}
+
+.welcome-header {
+    margin: 0;
+}
+
+.welcome-list {
+    margin: 0;
+}
+
+
+.welcome-name {
+    margin: 0;
+}
+
+.welcome-details {
+    margin: 0;
+} */
