@@ -10,7 +10,7 @@ import './styles.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="newsletter">
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
