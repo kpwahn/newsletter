@@ -1,8 +1,8 @@
 import React from 'react';
 import {
   BrowserRouter,
-  Routes,
-  Route
+  Route,
+  Switch
 } from 'react-router-dom';
 import Home from '../Home/index';
 import Newsletter from '../Newsletter'
@@ -12,10 +12,14 @@ function App() {
   return (
     <BrowserRouter basename="/newsletter">
       <div className="App">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path=":year/:month" element={<Newsletter />} />
-        </Routes>
+        <Switch>
+          <Route path="/">
+            <Home />
+          </Route>
+          <Route path=":year/:month">
+            <Newsletter />
+          </Route>
+        </Switch>
       </div>
     </BrowserRouter>
   );

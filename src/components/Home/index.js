@@ -1,10 +1,22 @@
 import React from 'react';
 import data from '../../data/index'
+import {
+    useHistory,
+    useLocation,
+    useParams
+} from 'react-router-dom'
 import dayjs from 'dayjs'
 import { Link } from 'react-router-dom';
 import './styles.css';
 
 const Home = props => {
+
+    let x = useHistory()
+    let y = useLocation()
+    let z = useParams()
+
+    console.log(x,y,z)
+
     let years = Object.keys(data).map(x => {
         return Object.keys(data[x]).map(y => ({
                 ...data[x][y],
